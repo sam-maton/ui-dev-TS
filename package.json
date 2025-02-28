@@ -1,0 +1,24 @@
+{
+  "name": "ui-dev-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-maton/ui-dev-TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-maton/ui-dev-TS/issues"
+  },
+  "homepage": "https://github.com/sam-maton/ui-dev-TS#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.8.2"
+  }
+}
