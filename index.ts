@@ -1,4 +1,9 @@
-function simpleAdd(a: number, b:number): number{
+import http from 'node:http'
 
-  return a + b
-}
+const server = http.createServer((req, res) => {
+  res.end('Hello, World!')
+})
+
+server.listen(3000, () => {
+  console.log('Server is running on http://localhost:3000')
+})
